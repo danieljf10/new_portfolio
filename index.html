@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/softwaredev.css">
+    <link rel="stylesheet" href="css/photography.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+    <div class="nav-container">
+        <img src="images/white-logo-transparent-background.png" alt="logo" class="logo">
+        <button id="nav-button">
+            <span class="burger"></span>
+            <span class="burger"></span>
+            <span class="burger"></span>
+        </button>
+
+        <div id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#" onclick= showPage(0)>About</a>
+            <a href="#" onclick= showPage(1)>Software Dev</a>
+            <a href="#" onclick= showPage(2)>Photography</a>
+            <button id="contact-button">Contact</button>
+
+            <div class="social-media">
+                <a href="https://github.com/danieljf10">
+                    <img class="icon" src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-256.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/daniel-flemming-54344520a/">
+                    <img class="icon" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png" alt="LinkedIn">
+                </a>
+                <a href="https://www.instagram.com/dan.jf_">
+                    <img class="icon" src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png" alt="Instagram">
+                </a>
+               
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="homepage-container">
+        <h1>Hello, I'm <span style="color:rgb(255, 55, 55)"> &nbsp;Daniel.</span></h1>
+        <h2>A Software Developer & Photographer</h2>
+    </div>
+
+    <div class="aboutpage-container" id="aboutpage">
+        <div class="aboutpage-content-wrapper">
+            <h1>About Me!</h1>
+            <h2>I'M DANIEL.</h2>
+            <p>A Bachelor of Computer Science student currently attending Dalhousie University, deeply passionate about software development and problem-solving. Regardless of the challenge's complexity, I approach problem-solving with enthusiasm, curiosity, and dedication. I actively seek out new challenges to continuously refine my skills and stay informed about emerging technologies. </p>
+            <p>Beyond software development, photography is another passion of mine. I particularly enjoy capturing images of vehicles, ranging from classic cars to helicopters, along with occasionally photographing wildlife when the opportunity arises. Through photography, I find joy in capturing clean, compelling images and telling stories through the camera lens.</p>
+        </div>
+    </div>
+
+
+    <div class="softwaredevpage-container" id="softdev">
+        <h1>Software Dev</h1>
+        <h2>Languages</h2>
+        <div class="languages">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">JS</span>
+            <span class="tag">Node JS</span>
+            <span class="tag">React Native</span>
+            <span class="tag">Java</span>
+        </div>
+        <h2>Projects</h2>
+        <div class="projects-container">
+
+            <a href="https://github.com/danieljf10/MyNotes" style="text-decoration: none; color: white;">
+                <div class="project-card">
+                    <div class="project-card-header">05/06/2024</div>
+                    <div class="project-card-content"><i class="devicon-react-original"></i></div>
+                    <div class="project-card-footer">
+                        Notes App <br>
+                        <span style="color: aquamarine;">
+                            (Shiftkey Labs 
+                            <a href="https://credsverse.com/credentials/57167d3b-e042-47be-b0ea-c5ff4891d564" style="color: white;">
+                                Certificate
+                            </a>)
+                        </span>
+                    </div>
+                </div>
+            </a>
+            
+            
+
+            <a href="https://github.com/danieljf10/danieljf10.github.io">
+                <div class="project-card">
+                    <div class="project-card-header">04/04/2024</div>
+                    <div class="project-card-content"><i class="devicon-html5-plain"></i></div>
+                    <div class="project-card-footer">Old Portfolio Site</div>
+                </div>
+            </a>
+
+              <a href="https://google.com">
+                <div class="project-card">
+                    <div class="project-card-header">12/03/2024</div>
+                    <div class="project-card-content"><i class="devicon-java-plain"></i></div>
+                    <div class="project-card-footer">Fitness Tracker</div>
+                  </div>
+              </a>
+
+        </div>
+    </div>
+
+    <div class="photographypage-container" id="photographypage">
+        <h1>Photography</h1>
+
+        <div class="image-container">
+            <img src="./images/P1140298.jpg" class="image-content">
+            <img src="./images/P1140774.jpg" class="image-content">
+            <img src="./images/P1150129.jpg" class="image-content">
+        </div>
+
+        <div class="photography-link">
+            <a href="https://www.behance.net/gallery/178871441/Gallery" target="_blank">Click for more photos</a>
+        </div>
+
+        
+        
+    </div>
+
+
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
